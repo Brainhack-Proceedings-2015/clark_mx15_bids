@@ -11,9 +11,9 @@ author:
   email: daniel.clark@childmind.org
   affiliation: aff1
   corref: aff1
-- initials: CFG
+- initials: CJG
   surname: Gorgolewski
-  firstname: Chris F.
+  firstname: Chris
   email: krzysztof.gorgolewski@gmail.com
   affiliation: aff2
 - initials: RCC
@@ -53,7 +53,7 @@ coi: None
 
 acknow: The authors would like to thank the organizers and attendees of Brainhack MX and the developers of C-PAC. This project was funded in part by a Educational Research Grant from Amazon Web Services.
 
-contrib: RCC and CFG provided supervision and reference, DJC and CFG wrote the software, DJC and CFG performed tests, and DJC wrote the report.
+contrib: RCC and CJG provided supervision and reference, DJC and CJG wrote the software, DJC and CJG performed tests, and DJC wrote the report.
   
 bibliography: brainhack-report
 
@@ -61,7 +61,7 @@ gigascience-ref: REFXXX
 ...
 
 #Introduction
-Data acquired during neuroimaging experiments can be organized in many different ways. This stems from inhomogeneity in scanner software, various DICOM and NIFTI tools, and custom data organizing scripts used across laboratories. The Brain Imaging Data Structure (BIDS) specification provides a simple, straightforward solution to this problem by introducing an intuitive standard for neuroimaging data organization. The goal of this Brainhack project is to utilize the BIDS standard in other software packages to encourage widespread adoption
+Data acquired during neuroimaging experiments can be organized in many different ways. This stems from inhomogeneity in scanner software, various DICOM and NIFTI tools, and custom data organizing scripts used across laboratories. The Brain Imaging Data Structure (BIDS) specification provides a simple, straightforward solution to this problem by introducing an intuitive standard for neuroimaging data organization. The widespread adoption of BIDS can be facilitated through incorporating this standard into sofware projects used for neuroimaging analysis. The goal of this Brainhack project is to demonstrate the integration of BIDS into a popular neuroimaging tool, the Configurable Pipeline for the Analysis of Connectomes (C-PAC).
 
 #Approach
 Tools for calculating DC (\texttt{3dDegreeCentrality}) and lFCD (\texttt{3dLFCD}) were implemented by modifying the C source code of AFNI's \texttt{3dAutoTcorrelate} tool. \texttt{3dAutoTcorrelate} calculates the voxel $\times$ voxel correlation matrix for a dataset and includes most of the functionality we require, including support for OpenMP \cite{Dagum1998} multithreading to improve calculation time, the ability to restrict the calculation using a user-supplied or auto-calculated mask, and support for both Pearson's and Spearman correlation.
