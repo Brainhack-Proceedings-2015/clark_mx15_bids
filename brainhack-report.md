@@ -11,9 +11,9 @@ author:
   email: daniel.clark@childmind.org
   affiliation: aff1
   corref: aff1
-- initials: CJG
+- initials: KJG
   surname: Gorgolewski
-  firstname: Chris
+  firstname: Krzysztof J.
   email: krzysztof.gorgolewski@gmail.com
   affiliation: aff2
 - initials: RCC
@@ -53,7 +53,7 @@ coi: None
 
 acknow: The authors would like to thank the organizers and attendees of Brainhack MX and the developers of C-PAC. This project was funded in part by a Educational Research Grant from Amazon Web Services.
 
-contrib: RCC and CJG provided supervision and reference, DJC and CJG wrote the software, DJC and CJG performed tests, and DJC wrote the report.
+contrib: RCC and KJG provided supervision and reference, DJC and KJG wrote the software, DJC and KJG performed tests, and DJC wrote the report.
   
 bibliography: brainhack-report
 
