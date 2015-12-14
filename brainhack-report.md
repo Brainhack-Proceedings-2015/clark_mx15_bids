@@ -74,7 +74,7 @@ C-PAC allows users to specify anatomical and functional file path templates that
   \caption{\label{custom_gui} C-PAC subject list builder using custom template}
 \end{figure}
 
-However, this system is prone to errors. Figure \ref{custom_gui} shows how bracketed keywords along with wildcard characters (e.g. "*") are used to specify how the data is organized. These file patterns can became complex and prone to typos. Users can also misunderstand the layout of their images or naming conventions used in C-PAC.
+However, this system is prone to errors. Figure \ref{custom_gui} shows how bracketed keywords along with wildcard characters (e.g. "*") are used to specify how the data is organized. These file patterns can become complex and prone to typos. Users can also misunderstand the layout of their images or naming conventions used in C-PAC.
 
 ##### \texttt{C-PAC with BIDS}:
 Using BIDS, C-PAC only requires a single base directory in order to build a complete subject list for processing. This prevents the user from mistyping their file pattern templates. Additionally, BIDS enforces metadata being present in the form of JSON files stored alongside the imaging data. C-PAC can utilize the metadata from these files to build more informative data bundles - for example, encoding scan acquisition parameters or variables describing subject phenotypes. This data can then be used later during the pipeline run to further enhance the way the data is processed.
