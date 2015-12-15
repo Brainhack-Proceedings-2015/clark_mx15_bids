@@ -61,9 +61,9 @@ gigascience-ref: REFXXX
 ...
 
 #Introduction
-Data acquired during neuroimaging experiments can be organized in many ways. This stems from differences in scanner software, various DICOM and NIFTI tools, and custom data organizing scripts within different laboratories. The Brain Imaging Data Structure (BIDS) specification\cite{Gorgolewski15-2} provides a simple, straightforward solution to this problem by introducing an intuitive standard for neuroimaging data organization. The widespread adoption of BIDS can be facilitated through incorporating this standard into software projects used for neuroimaging analysis. These software packages will in turn benefit from the homogenous data structure and ease of specifying data acquisition parameters afforded by BIDS. The goal of this Brainhack project was to integrate BIDS into the Configurable Pipeline for the Analysis of Connectomes (C-PAC)\cite{CraddockCPAC}, a python software built on Nipype\cite{Gorgolewski2011} for the high-throughput analysis of resting state fMRI data.
+Data acquired during neuroimaging experiments can be organized in many ways. This stems from differences in scanner software, various DICOM and NIFTI tools, and custom data organizing scripts within different laboratories. The Brain Imaging Data Structure (BIDS) specification\cite{Gorgolewski15-2} provides a simple, straightforward solution to this problem by introducing an intuitive standard for neuroimaging data organization. The widespread adoption of BIDS can be facilitated through incorporating this standard into software projects used for neuroimaging analysis. These software packages will in turn benefit from the homogenous data structure and ease of specifying data acquisition parameters afforded by BIDS. The goal of this Brainhack project was to integrate BIDS into the Configurable Pipeline for the Analysis of Connectomes (C-PAC)\cite{CraddockCPAC}, a python software built on Nipype\cite{Gorgolewski2011} for the high-throughput analysis of resting state fMRI data. 
 
-#
+
 
 #Approach
 
