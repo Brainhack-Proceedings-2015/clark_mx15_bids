@@ -57,7 +57,7 @@ contrib: RCC and KJG provided supervision and reference, DJC and KJG wrote the s
 
 bibliography: brainhack-report
 
-gigascience-ref: REFXXX
+gigascience-ref: \href{http://gigadb.org/dataset/100218}{doi:10.5524/100218}
 ...
 
 #Introduction
